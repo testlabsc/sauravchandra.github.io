@@ -56,8 +56,9 @@ body {
 }
 #blog{
 	text-align:left;
+}
+#blog a{
     color:#ffffff;
-	text-decoration:underline;
 }
 ul {
     display: flex;
