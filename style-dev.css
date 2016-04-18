@@ -43,7 +43,7 @@ body {
 #header{
 	position: fixed;
     width: 100%;
-    left:1.5vw;
+    left:-1.5vw;
     z-index: 1;
 }
 #menu{
