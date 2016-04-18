@@ -56,11 +56,11 @@ body {
 }
 #blog{
 	text-align:left;
-	text-decoration:none;
 }
 #blog a{
-    	color:#ffffff;
-}
+    color:#ffffff;
+	text-decoration:none;
+	}
 #blog a:hover{
 	text-decoration:underline;
 }
