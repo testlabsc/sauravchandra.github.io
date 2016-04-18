@@ -51,10 +51,14 @@ body {
 #menu a:hover {
     text-decoration:underline;
 }
-#links {
+#links{
     padding: 20px 20vw;
 }
-
+#blog{
+	text-align:left;
+    color:#ffffff;
+	text-decoration:underline;
+}
 ul {
     display: flex;
     display: -webkit-box;
