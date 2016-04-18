@@ -59,7 +59,9 @@ body {
 	text-decoration:none;
 }
 #blog a{
-    color:#ffffff;
+    	color:#ffffff;
+}
+#blog a:hover{
 	text-decoration:underline;
 }
 ul {
