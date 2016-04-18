@@ -56,9 +56,11 @@ body {
 }
 #blog{
 	text-align:left;
+	text-decoration:none;
 }
 #blog a{
     color:#ffffff;
+	text-decoration:underline;
 }
 ul {
     display: flex;
