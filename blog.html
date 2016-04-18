@@ -1,37 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Saurav Chandra</title>
-  <meta charset="utf-8" />
-  <meta name="title" content="Saurav Chandra" />
-  <meta name="description" content="A humanist with a passion for technology."/>
-  <meta name="google-site-verification" content="5RPtXkTCO395ZNWDdtWJFXxU1vqSdx7NDEW3yKBpoDM" />
-  <meta name="viewport" content="width=device-width, initial-scale=1"v/>
-  <link href='./style-dev.css' rel='stylesheet' type='text/css'/>
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:100">
-  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-</head>
-<body>
-<div class="main">
-	<div class="row">
-		<div id="menu">
-			<a href="./index.htm">home</a> | <a href="./blog.htm">blog</a> | <a href="./contact.htm">contact</a>
-		</div>
-	</div>
-	
-	<div class="row">
-	{% for post in site.posts %}
-		<article class="post">
-			<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-		<div class="entry">
-        {{ post.excerpt }}
-		</div>
-
-		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-	{% endfor %}
+---
+title: Blog
+layout: default
+permalink: /blog/
+---
+<div class="row">
+	<div id="menu">
+		<a href="./index.htm">home</a> | <a href="./blog.htm">blog</a> | <a href="./contact.htm">contact</a>
 	</div>
 </div>
-</body>
-</html>
+	
+<div class="row">
+{% for post in site.posts %}
+	<article class="post">
+		<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+		<div class="entry">
+       {{ post.excerpt }}
+	</div>
+		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+   </article>
+{% endfor %}
+</div>
+
+	
