@@ -5,11 +5,11 @@ permalink: /contact/
 ---
 <div id="row">
 	<div id="contact">
-		<div id="submit-success"  style="display:none;">
+		<div class="msg" id="submit-success"  style="display:none;">
 			Message received! I'll be in touch.
 		</div>
 
-		<div id="submit-errors" style="display:none;">
+		<div class="msg" id="submit-errors" style="display:none;">
 			It looks like there was an error submitting the form.
 			Please try again later.
 		</div>
@@ -41,10 +41,13 @@ permalink: /contact/
 	  dataType: "json",
 	  success: function() {
         $("#submit-success").fadeIn();
+		$("#submit-success").delay(5000).fadeOut('slow');
         $("#contact-form").fadeOut();
+		$("#submit-success").delay(5000).fadeIn('slow');
       },
       error: function() {
         $("#submit-errors").fadeIn();        
+		$("#submit-errors").delay(5000).fadeOut('slow');
       }
     });
   }
