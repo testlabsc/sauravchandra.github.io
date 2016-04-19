@@ -111,6 +111,7 @@ textarea {
     resize: none;
 }
 .msg{
+	text-align:center;
 	padding:20px;
 	border: 2px solid white;
 }
