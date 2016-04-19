@@ -74,9 +74,19 @@ body {
 	text-decoration:underline;
 }
 #contact{
+	width:100%
+	padding-left:10vw;
+	padding-right:10vw;
 	font-size:2em;
 }
-ul {
+.form-control{
+	position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0
+}
+	ul {
     display: flex;
     display: -webkit-box;
     display: -ms-flexbox;
