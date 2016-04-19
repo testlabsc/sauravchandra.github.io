@@ -79,6 +79,12 @@ body {
 	padding-right:10vw;
 	font-size:2em;
 }
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
 .form-control{
 	position: relative;
     z-index: 2;
