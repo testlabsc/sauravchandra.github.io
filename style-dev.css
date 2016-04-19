@@ -102,11 +102,12 @@ input[type=submit]:hover{
 }
 textarea {
     width: 100%;
-	background-color:transparent;
+    background-color:transparent;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
     border: 2px solid white;
+    color:white;
     resize: none;
 }
 .msg{
