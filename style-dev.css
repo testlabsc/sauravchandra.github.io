@@ -102,14 +102,15 @@ input[type=submit]:hover{
 }
 textarea {
     width: 100%;
-    color:white;
-    background-color:transparent;
+	background-color:transparent;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
     border: 2px solid white;
-    margin:8px 0;
     resize: none;
+}
+.msg{
+	border: 2px solid white;
 }
 ul {
     display: flex;
