@@ -90,9 +90,7 @@ input{
 	color:white;
 }
 input[type=submit]{
-	width:25% !important;
     background-color:transparent;
-    padding: 16px 32px;
     margin: 4px 2px;
     cursor: pointer;
     font-size:20px;
