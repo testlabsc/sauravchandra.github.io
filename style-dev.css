@@ -87,6 +87,7 @@ input{
     box-sizing: border-box;
 	border: 2px solid white;
 	resize: none;
+	color:white;
 }
 input[type=submit]{
 	width:25% !important;
@@ -97,10 +98,11 @@ input[type=submit]{
     font-size:20px;
 }
 input[type=submit]:hover{
-    background-color:black
+    background-color:black;
 }
 textarea {
     width: 100%;
+	background-color:transparent;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
