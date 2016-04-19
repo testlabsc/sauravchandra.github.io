@@ -40,6 +40,7 @@ permalink: /contact/
       },
 	  dataType: "json",
 	  success: function() {
+		$("#contact-form").each(function(){ this.reset(); });
         $("#submit-success").fadeIn();
 		$("#submit-success").delay(5000).fadeOut('slow');
         $("#contact-form").fadeOut();
