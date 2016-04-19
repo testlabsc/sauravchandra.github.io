@@ -14,7 +14,7 @@ permalink: /contact/
 			Please try again later.
 		</div>
 
-		<form method="post" action="/" id="contact-form" novalidate="novalidate">
+		<form id="contact-form">
 			<label for="name">Name</label>
 			<input type="text" name="Name" required placeholder="Name">     
 			<label for="email">Email</label>
@@ -34,9 +34,9 @@ permalink: /contact/
       url: "//formspree.io/sauravchandra123@gmail.com", 
       method: "POST",
       data: {
-        name: $(form).find("input[name='Name']").val(),
-        _replyto: $(form).find("input[name='Email']").val(),
-        message: $(form).find("textarea[name='Message']").val()
+        Name: $(form).find("input[name='Name']").val(),
+        Email: $(form).find("input[name='Email']").val(),
+        Message: $(form).find("textarea[name='Message']").val()
       },
 	  dataType: "json",
 	  success: function() {
