@@ -88,17 +88,16 @@ input{
 	resize: none;
 }
 input[type=submit]{
-    background-color:none;
-    border: 4px solid white;
+	width:25% !important;
+    background-color:transparent;
+	border: 4px solid white;
     padding: 16px 32px;
     margin: 4px 2px;
     cursor: pointer;
     font-size:20px;
 }
 input[type=submit]:hover{
-    background-color:white;
-    border: 4px solid black;
-    color: black;
+    background-color:black
 }
 textarea {
     width: 100%;
