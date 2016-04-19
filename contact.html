@@ -3,13 +3,50 @@ title: Contact
 layout: default
 permalink: /contact/
 ---
-<div class="row">
-  <div id="contact">
-      <form action="https://formspree.io/sauravchandra123@gmail.com" method="POST">
-        Name: <input type="text" name="name"><br>
-        Email: <input type="email" name="email"><br>
-        Message: <input type="text" name="message"><br>
-        <input type="submit" value="Send">
-      </form>
-    </div>
-</div>
+<div id="row">
+	<div id="contact">
+		<div id="submit-success" class="collapse">
+			Message received! I'll be in touch.
+		</div>
+
+		<div id="submit-errors" class="collapse">
+			It looks like there was an error submitting the form.
+			Please try again later.
+		</div>
+
+		<form id="contact-form">
+			<label for="name">Name</label>
+			<input class="form-control" type="text" name="Name" required placeholder="Name">     
+			<label for="email">Email</label>
+			<input class="form-control" type="email" name"Email" required placeholder="email@address.com">      
+			<label for="message">Message</label>
+			<textarea class="form-control" name="message" placeholder="Message" required rows="5"></textarea>
+		</form>
+	</div>
+</div>	
+
+<script>
+	$("#contact-form").validate({
+  submitHandler: function(form) {
+    $.ajax({
+      url: "//formspree.io/sauravchandra123@gmail.com", 
+      method: "POST",
+      data: {
+        name: $(form).find("input[name='Name']").val(),
+        _replyto: $(form).find("input[name='Email']").val(),
+        message: $(form).find("textarea[name='Message']").val()
+      },
+	  dataType: "json",
+	  success: function() {
+        $("#submit-success").fadeIn();
+        $("#contact-form").fadeOut();
+      },
+      error: function() {
+        $("#submit-errors").fadeIn();        
+      }
+    });
+  }
+});
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
