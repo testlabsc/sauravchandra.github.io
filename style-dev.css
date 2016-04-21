@@ -49,6 +49,7 @@ body {
 #menu{
 	text-align:right;
 	font-size: 2em;
+	background-color:#474747;
 }
 #menu a{
 	color:#ffffff;		
