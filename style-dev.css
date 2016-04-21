@@ -43,13 +43,12 @@ body {
 #header{
 	position: fixed;
     width: 100%;
-    font-size:2em;
     left:-1.5vw;
     z-index: 1;
 }
 #menu{
 	text-align:right;
-	font-size: 3vw;
+	font-size: 2em;
 }
 #menu a{
 	color:#ffffff;		
