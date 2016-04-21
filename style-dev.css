@@ -92,7 +92,7 @@ input{
 input[type=submit]{
     background-color:transparent;
     margin: 4px 2px;
-    width:50% !important;
+    width:30% !important;
     cursor: pointer;
     font-size:20px;
 }
