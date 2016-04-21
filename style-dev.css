@@ -83,8 +83,8 @@ input{
 	width:100%;
 	padding: 10px 15px;
 	background-color:transparent;
-    margin: 8px 0;
-    box-sizing: border-box;
+	margin: 8px 0;
+    	box-sizing: border-box;
 	border: 2px solid white;
 	resize: none;
 	color:white;
@@ -92,6 +92,7 @@ input{
 input[type=submit]{
     background-color:transparent;
     margin: 4px 2px;
+    width:50% !important;
     cursor: pointer;
     font-size:20px;
 }
