@@ -42,6 +42,7 @@ body {
 }
 #header{
 	position: fixed;
+      top:0px;
     width: 100%;
     left:-1.5vw;
     z-index: 1;
