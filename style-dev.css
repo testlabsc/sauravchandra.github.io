@@ -65,8 +65,8 @@ body {
 }
 #blog{
 	text-align:left;
-	padding-left:5vw;
-	padding-right:5vw;
+	padding-left:50px;
+	padding-right:50px;
 	font-size:1.5em;
 }
 #blog a{
