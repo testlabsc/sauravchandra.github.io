@@ -67,7 +67,8 @@ body {
 	text-align:left;
 	padding-left:50px;
 	padding-right:50px;
-	font-size:1.5em;
+	line-height: 1.7;
+	font-size:1.6rem;
 }
 #blog a{
     color:#ffffff;
