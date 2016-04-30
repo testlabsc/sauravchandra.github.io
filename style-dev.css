@@ -76,6 +76,11 @@ body {
 #blog a:hover{
 	text-decoration:underline;
 }
+#blog-title {
+    line-height: 1.10;
+    margin: .75em 0;
+    text-align: center;
+}
 #contact{
 	width:100%;
 	padding-left:10vw;
