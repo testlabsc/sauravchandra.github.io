@@ -7,7 +7,7 @@ permalink: /blog/
 	<div id="blog">
 		{% for post in site.posts %}
 		<div>
-			<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+			<h1 id="blog-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 			<div>
 				{{ post.excerpt }}...<a href="{{ site.baseurl }}{{ post.url }}"><b>Read More</b></a>
 			</div>
