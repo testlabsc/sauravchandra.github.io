@@ -54,7 +54,7 @@ body {
       	list-style: none;
       	font-size: 2em;
 }
-#nav li + li:before{
+#nav li:before{
     content: " | ";
     float: right;
 }
