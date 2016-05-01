@@ -49,6 +49,7 @@ body {
    	background-color:#474747;
 	opacity:75%;
     	z-index: 1;
+    	left:-1.5vw;
     	text-align:right;
 	font-size: 2em;
 }
