@@ -52,11 +52,17 @@ body {
     	text-align:right;
 	font-size: 2em;
 }
-#header a{
+ul#nav {
+	list-style-type: none;
+	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+}
+ul#nav a{
 	color:#ffffff;		
 	text-decoration: none;
 }
-#header a:hover {
+ul#nav a:hover {
     text-decoration:underline;
 }
 #links{
