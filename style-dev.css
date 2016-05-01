@@ -58,9 +58,7 @@ body {
 #nav li + li:before{
     content: " | ";
     padding: 0 10px;
-}
-#nav li{
-	float: right;
+    float: right;
 }
 #nav li a{
 	color:#ffffff;		
