@@ -50,14 +50,12 @@ body {
 	padding-right:15px;
 	padding-top:20px;
 	padding-bottom:20px;
-   	float: left;
-      	background:#474747;
+   	background:#474747;
       	list-style: none;
       	font-size: 2em;
 }
 #nav li + li:before{
     content: " | ";
-    padding: 0 10px;
     float: right;
 }
 #nav li a{
