@@ -55,11 +55,11 @@ body {
       	font-size: 2em;
 }
 #nav li{
-       
+       float: right !important;
 }
-#nav li+ li:before{
-	float: right;
+#nav li + li:before{
 	content: " | ";
+	padding: 0 10px;
 }
 #nav li a{
 	color:#ffffff;		
