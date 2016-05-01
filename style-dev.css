@@ -45,21 +45,18 @@ body {
 	padding-top:20px;
 	padding-bottom:20px;
       	top:0px;
-    	width: 100%;
-    	left:-1.5vw;
-    	background-color:#474747;
+    	width:inherit;
+   	background-color:#474747;
 	opacity:75%;
     	z-index: 1;
-}
-#menu{
-	text-align:right;
+    	text-align:right;
 	font-size: 2em;
 }
-#menu a{
+#header a{
 	color:#ffffff;		
 	text-decoration: none;
 }
-#menu a:hover {
+#header a:hover {
     text-decoration:underline;
 }
 #links{
