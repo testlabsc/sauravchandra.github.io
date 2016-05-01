@@ -224,7 +224,7 @@ li {
     background-position: -681px -5px
 }
 @media only screen and (max-width: 240px) {
-    ul {
+    ul#link {
         -webkit-flex-flow: row wrap!important;
         -ms-flex-flow: row wrap!important;
         flex-flow: row wrap!important
@@ -245,7 +245,7 @@ li {
         padding-left: 0!important;
         padding-right: 0!important
     }
-    ul {
+    ul#link {
         -webkit-box-pack: justify!important;
         -webkit-justify-content: space-between!important;
         -ms-flex-pack: justify!important;
