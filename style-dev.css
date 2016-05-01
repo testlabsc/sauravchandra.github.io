@@ -24,6 +24,8 @@ body {
     padding: 15px;
     text-align: center
 }
+
+
 #text {
     font-size: 12vw;
     line-height: 1;
@@ -44,19 +46,19 @@ body {
 	position: fixed;
 	padding-top:20px;
 	padding-bottom:20px;
-      	top:0px;
-    	width:inherit;
+   	top:0px;
+   	width:inherit;
    	background:#474747;
-    	z-index: 1;
-    	left:-1.5vw;
-    	text-align:right;
+   	z-index: 1;
+   	left:-1.5vw;
+   	text-align:right;
 	font-size: 2em;
 }
 ul#nav {
 	list-style-type: none;
 	margin: 0;
-    	padding: 0;
-    	overflow: hidden;
+   	padding: 0;
+   	overflow: hidden;
 }
 ul#nav a{
 	color:#ffffff;		
@@ -72,8 +74,8 @@ ul#nav a:hover {
 	text-align:left;
 	float: none;
 	width: 100%;
-    	max-width: 700px;
-    	margin: 0 auto 3em;
+   	max-width: 700px;
+   	margin: 0 auto 3em;
 	line-height: 1.7;
 	font-size:1.6rem;
 }
@@ -100,7 +102,7 @@ input{
 	padding: 10px 15px;
 	background-color:transparent;
 	margin: 8px 0;
-    	box-sizing: border-box;
+   	box-sizing: border-box;
 	border: 2px solid white;
 	resize: none;
 	color:white;
@@ -124,12 +126,8 @@ textarea {
     color:white;
     resize: none;
 }
-.msg{
-	text-align:center;
-	padding:20px;
-	border: 2px solid white;
-}
-ul {
+
+ul#link {
     display: flex;
     display: -webkit-box;
     display: -ms-flexbox;
