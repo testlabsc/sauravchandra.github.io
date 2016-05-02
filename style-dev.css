@@ -25,6 +25,10 @@ body {
     padding: 15px;
     text-align: center
 }
+.header{
+	position:absolute;
+	width:100%;	
+}
 #text {
     font-size: 12vw;
     line-height: 1;
