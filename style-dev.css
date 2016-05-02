@@ -53,9 +53,9 @@ body {
     user-select: none
 }
 #nav {
-	position:fixed;
-	background:#474747;
-      	list-style: none;
+	margin:0;
+	list-style: none;
+	float:right;
       	font-size: 2em;
 }
 #nav li{
