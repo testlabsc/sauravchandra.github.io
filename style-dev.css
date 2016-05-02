@@ -25,9 +25,6 @@ body {
 	background:#474747;
 	z-index:1;
 }
-.wrapper{
-	position:relative;
-}
 .content {
     position: absolute;
     top: 50%;
