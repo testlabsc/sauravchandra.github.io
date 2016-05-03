@@ -32,6 +32,13 @@ body {
     transform: translate(-50%, -50%);
     width: 100%;
 }
+.blog-content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
 .row {
     width: 100%;
     float: left;
