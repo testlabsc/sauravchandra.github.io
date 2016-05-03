@@ -107,9 +107,10 @@ body {
 }
 #contact{
 	width: 100%;
-   	padding-left:10vw;
-	padding-right:10vw;
-	font-size:2em;
+   	max-width: 700px;
+    	margin: 3em auto 3em;
+    	padding: 15px;
+    	font-size: 2em;
 }
 input{
 	width:100%;
