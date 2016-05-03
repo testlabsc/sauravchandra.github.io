@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} | {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <link rel="stylesheet" type="text/css" href="http://sauravchandra.com/style-dev.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:100">
+    <link rel="icon" href="http://sauravchandra.com/favicon.ico" type="image/x-icon"/>
+  </head>
+
+  <body>
+    {% include header.html %}
+    <div class="blog-content">
+        {{ content }}
+    </div>
+  </body>
+</html>
