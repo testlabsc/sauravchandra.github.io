@@ -8,12 +8,11 @@ permalink: /blog/
 		{% for post in site.posts %}
 		<div>
 			<h1 id="blog-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+			<div style="font-size:1.2rem;text-align:center;">
+					 Posted on {{ post.date | date: "%B %e, %Y" }}
+			</div>
 			<div>
 				{{ post.excerpt }}...<a href="{{ site.baseurl }}{{ post.url }}"><b>Read More</b></a>
-				<div style="font-size:0.5 rem;text-align:center;">
-					 ---------- Posted on {{ post.date | date: "%B %e, %Y" }} ----------
-				</div>
-			
 			</div>
 		</div>
 		{% endfor %}
