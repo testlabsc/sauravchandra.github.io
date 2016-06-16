@@ -104,11 +104,13 @@ body {
 #blog-title {
     line-height: 1.10;
     margin-top:2em;
-    margin
     text-align: center;
 }
-h1#blog-title{
-	margin-bottom:5px;
+#blog-title-bp {
+    line-height: 1.10;
+    margin-top:2em;
+    margin-bottom:5px;
+    text-align: center;
 }
 #contact{
 	width: 100%;
