@@ -66,9 +66,9 @@ body {
 	float:right;
       	font-size: 2em;
 }
-#nav li{
-       float: right;
-}
+
+       
+
 #nav li + li:after{
 	content: "|";
 	padding: 0 10px;
