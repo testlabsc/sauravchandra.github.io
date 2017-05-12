@@ -2,10 +2,8 @@
     box-sizing: border-box
 }
 html {
-	
-	
-background-color: #474747;
-    height: 100%
+	background-color: #474747;
+	height: 100%
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -103,14 +101,12 @@ body {
 }
 #blog-title {
     line-height: 1.10;
-    margin-top:2em;
-    text-align: center;
+    margin-top:2em;    
 }
 #blog-title-bp {
     line-height: 1.10;
     margin-top:2em;
-    margin-bottom:5px;
-    text-align: center;
+    margin-bottom:5px;    
 }
 #contact{
 	width: 100%;
