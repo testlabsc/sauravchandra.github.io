@@ -246,6 +246,13 @@ textarea {
         -ms-flex-flow: row wrap!important;
         flex-flow: row wrap!important
     }
+	#nav {align: center;
+	
+	
+	
+
+}
+	
 }
 @media only screen and (max-width: 340px) {
     #text-sub {
