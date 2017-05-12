@@ -66,10 +66,11 @@ body {
 	float:right;
       	font-size: 2em;
 }
+#nav li{
+	
+    display:inline;
 
-       
-
-
+}
 #nav li a{
 	color:#ffffff;		
 	text-decoration: none;
