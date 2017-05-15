@@ -62,8 +62,8 @@ body {
 }
 #nav {
 	margin:0;
-	list-style: none;
-	float:right;
+	list-style: none;align:justify;
+	
       	font-size: 2em;
 }
 #nav li{
