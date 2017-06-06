@@ -1,12 +1,5 @@
-* {
-    box-sizing: border-box
-}
 html {
-	background-color: #474747;
-	height: 100%
-}
-html #home {
-	 background: url(images/bg.jpg) no-repeat center center fixed; 
+	 background: url(images/bg7o.jpg) no-repeat center center fixed; 
 	  -webkit-background-size: cover;
  	 -moz-background-size: cover;
  	 -o-background-size: cover;
@@ -47,10 +40,16 @@ body {
 }
 .row {
     width: 100%;
-    float: left;
-    padding: 15px;
-  
+    padding: 15px;  
 }
+#photo{
+	margin: 0 auto;
+}
+img #photo { 
+   	border:5px solid #021a40;
+	border-radius: 50%;
+}
+
 #text {
     font-size: 12vw;
     line-height: 1;
