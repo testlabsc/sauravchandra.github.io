@@ -80,31 +80,7 @@ html,body{
 #links{
     padding: 20px;
 }
-#blog-roll{
-	text-align:left;
-	float: none;
-	width: 100%;
-   	max-width: 700px;
-   	margin: 0 auto 3em;
-	line-height: 1.7;
-	font-size:1.6rem;
-}
-#blog-roll a{
-    color:#ffffff;
-	text-decoration:none;
-	}
-#blog-roll a:hover{
-	text-decoration:underline;
-}
-#blog-title {
-    line-height: 1.10;
-    margin-top:2em;    
-}
-#blog-title-bp {
-    line-height: 1.10;
-    margin-top:2em;
-    margin-bottom:5px;    
-}
+
 #post-display{
 	text-align: left;
 	max-width: 700px;
@@ -112,6 +88,23 @@ html,body{
     	font-size: 20px;
     	padding-left: 10px;
     	padding-right: 10px;
+}
+
+#post-display a{
+    color:#ffffff;
+	text-decoration:none;
+}
+#post-display a:hover{
+	text-decoration:underline;
+}
+#post-title {
+    line-height: 1.10;
+    margin-top:2em;    
+}
+#post-title-bp {
+    line-height: 1.10;
+    margin-top:2em;
+    margin-bottom:5px;    
 }
 
 #link {
