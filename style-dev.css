@@ -21,7 +21,6 @@ body {
 	padding-top:15px;
 	padding-bottom:15px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background:#474747;
 	z-index:1;
 }
 .content {
@@ -44,32 +43,28 @@ body {
 }
 #photo{
 	margin: 0 auto;
+	height:250px;
+	width:250px;
 }
-img #photo { 
+#photo img{ 
    	border:5px solid #021a40;
 	border-radius: 50%;
+	height:100%;
+	width:100%;
 }
 
-#text {
-    font-size: 12vw;
+#intro {
+    font-size: 24px;
     line-height: 1;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none
 }
-#text-sub {
-    font-size: 3vw;
-    line-height: 1;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
-}
+
 #nav {
 	margin:0;
-	list-style: none;align:justify;
-	
+	list-style: none;
       	font-size: 2em;
 }
 #nav li{
