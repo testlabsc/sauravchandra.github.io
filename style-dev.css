@@ -20,6 +20,12 @@ html,body {
  	font-size: 48px;
 	color:#ffffff;
 }
+.header a:hover{
+	 text-decoration: underline;
+}
+.header a:active{
+	 text-decoration: underline;
+}
 .content {
     position: absolute;
     top: 50%;
@@ -39,7 +45,6 @@ html,body {
 }
 #photo{
 	margin: 0 auto;
-	height:250px;
 	width:250px;
 }
 #photo img{ 
@@ -50,13 +55,13 @@ html,body {
 }
 
 #intro {
-    font-size: 50px;
-    line-height: 1;
+    	font-size: 50px;
+   	line-height: 1;
 	text-align:center;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
+   	-webkit-user-select: none;
+   	-moz-user-select: none;
+  	-ms-user-select: none;
+  	user-select: none
 }
 
 #links{
