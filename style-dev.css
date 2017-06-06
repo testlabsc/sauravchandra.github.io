@@ -11,17 +11,17 @@ body {
     color: #ffffff;
 }
 .header{
-	position:fixed;
-	width: 100%;
-	top:0px;
-	left:0px;
-	margin:0;
-	padding-left:0px !important;
-	padding-right:15px;
-	padding-top:15px;
-	padding-bottom:15px;
+	overflow: hidden;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	z-index:1;
+}
+.header a{
+	float: left;
+ 	display: block;
+ 	text-align: center;
+ 	padding: 14px 16px;
+ 	text-decoration: none;
+ 	font-size: 48px;
 }
 .content {
     position: absolute;
@@ -47,7 +47,7 @@ body {
 	width:250px;
 }
 #photo img{ 
-   	border:5px solid #021a40;
+   	border:5px solid #C0C0C0;
 	border-radius: 50%;
 	height:100%;
 	width:100%;
@@ -56,6 +56,7 @@ body {
 #intro {
     font-size: 24px;
     line-height: 1;
+	text-align:center;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
