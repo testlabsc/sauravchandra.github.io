@@ -119,14 +119,14 @@ html,body{
     margin-bottom:5px;    
 }
 #post-content{
-	width: 100%;
-    	max-width: 700px;
-    	padding-left: 10px;
-    	padding-right: 10px;
-    	margin: 0 auto;
-    	color: black;
-    	margin-top: 100px;
-    	font-size: 20px;
+	margin: 1.5em auto 0;
+   	padding: 0 1.5em;
+   	max-width: 700px;
+   	padding-left: 15px;
+   	padding-right: 15px;
+   	color: black;
+   	font-size: 16px;
+   	line-height: 1.7;
 }
 #link {
     display: flex;
