@@ -1,12 +1,13 @@
-html {
-	 background: url(images/bg5o.jpg) no-repeat center center fixed; 
-	 background-size: cover;
-	 overflow:hidden;
-}
-body {
-    font-family: 'Roboto', sans-serif;
-    background: none;
-    color: #ffffff;
+html,body {
+	background: url(images/bg5o.jpg); 
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	height:100%;
+	overflow:hidden;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
 }
 .header{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
