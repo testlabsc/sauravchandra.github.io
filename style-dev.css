@@ -29,14 +29,9 @@ html,body{
  	padding: 14px 16px;
  	text-decoration: none;
  	font-size: 48px;
-	color:#ffffff;
+	color:black;
 }
-.header a:hover{
-	 text-decoration: underline;
-}
-.header a:active{
-	 text-decoration: underline;
-}
+
 .content {
     position: absolute;
     top: 50%;
@@ -82,7 +77,6 @@ html,body{
 #post-display{
 	text-align: left;
 	max-width: 700px;
-	width: 100%;
 	margin:0 auto;
     	line-height: 1.7;
     	font-size: 20px;
