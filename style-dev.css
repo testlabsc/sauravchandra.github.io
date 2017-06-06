@@ -58,7 +58,7 @@ html,body{
 }
 #photo{
 	margin: 0 auto;
-	width:250px;
+	width:150px;
 }
 #photo img{ 
    	border:10px solid #ffffff;
@@ -68,7 +68,7 @@ html,body{
 }
 
 #intro {
-    	font-size: 50px;
+    	font-size: 45px;
    	line-height: 1;
 	text-align:center;
    	-webkit-user-select: none;
