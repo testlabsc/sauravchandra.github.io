@@ -80,7 +80,7 @@ html,body{
 #links{
     padding: 20px;
 }
-#blog{
+#blog-roll{
 	text-align:left;
 	float: none;
 	width: 100%;
@@ -89,11 +89,11 @@ html,body{
 	line-height: 1.7;
 	font-size:1.6rem;
 }
-#blog a{
+#blog-roll a{
     color:#ffffff;
 	text-decoration:none;
 	}
-#blog a:hover{
+#blog-roll a:hover{
 	text-decoration:underline;
 }
 #blog-title {
