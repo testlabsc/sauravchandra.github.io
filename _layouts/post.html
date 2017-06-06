@@ -15,12 +15,10 @@
     <div id="post-banner" style="background-image:url(../images/{{page.banner}});">
       <div id="post-title">{{ page.title }}</div>
     </div>
-    <div>
+    <div id="post-content">
       {{ content }}
-    </div>  
-    <div>
-        <b>Posted on</b> {{ page.date | date: "%B %e, %Y" }}
-    </div>
-    <br><br>
+      <br><br>
+      <b>Posted on</b> {{ page.date | date: "%B %e, %Y" }}
+    </div>     
   </body>
 </html>
