@@ -105,6 +105,14 @@ html,body{
     margin-top:2em;
     margin-bottom:5px;    
 }
+#post-display{
+	text-align: left;
+	max-width: 700px;
+    	line-height: 1.7;
+    	font-size: 20px;
+    	padding-left: 10px;
+    	padding-right: 10px;
+}
 
 #link {
     display: flex;
