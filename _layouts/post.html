@@ -12,22 +12,15 @@
 
   <body id="blog">
     {% include header.html %}
-    <div class="row">
-      <div id="post-display">
-        <div id="post-banner" style="background-image:url(../images/{{page.banner}});">
-          <div id="post-title">{{ page.title }}</div>
-        </div>
-        <div>
-         {{ content }}
-        </div>  
-        <div>
-         <b>Posted on</b> {{ page.date | date: "%B %e, %Y" }}
-        </div>
-        <br><br>
-        {% include disqus.html %}
-      </div>
-    </div>    
+    <div id="post-banner" style="background-image:url(../images/{{page.banner}});">
+      <div id="post-title">{{ page.title }}</div>
+    </div>
+    <div>
+      {{ content }}
+    </div>  
+    <div>
+        <b>Posted on</b> {{ page.date | date: "%B %e, %Y" }}
+    </div>
+    <br><br>
   </body>
 </html>
-
-
