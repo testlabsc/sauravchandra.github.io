@@ -99,9 +99,18 @@ html,body{
 #post-display a:hover{
 	text-decoration:underline;
 }
+#post-banner{
+	height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+ 	background-size: cover;
+  	position: relative;
+}
 #post-title {
-    line-height: 1.10;
-    margin-top:2em;    
+	text-align: center;  
+  	color: white;
+    	line-height: 1.10;
+   	 margin-top:2em;    
 }
 #post-title-bp {
     line-height: 1.10;
