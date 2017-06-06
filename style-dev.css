@@ -48,7 +48,7 @@ html,body {
 	width:250px;
 }
 #photo img{ 
-   	border:5px solid #ffffff;
+   	border:10px solid #ffffff;
 	border-radius: 50%;
 	height:100%;
 	width:100%;
@@ -95,20 +95,9 @@ html,body {
 
 #link {
     display: flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    -webkit-flex-basis: auto;
-    -ms-flex-preferred-size: auto;
     flex-basis: auto;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
     align-self: auto;
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: distribute;
     justify-content: space-around;
     margin: 0;
     padding: 0;
@@ -189,48 +178,4 @@ html,body {
     width: 42px;
     height: 42px;
     background-position: -681px -5px
-}
-@media only screen and (max-width: 240px) {
-    ul#link {
-        -webkit-flex-flow: row wrap!important;
-        -ms-flex-flow: row wrap!important;
-        flex-flow: row wrap!important
-    }
-	#nav {align: center;
-	
-	
-	
-
-}
-	
-}
-@media only screen and (max-width: 340px) {
-    #text-sub {
-        font-size: 4.9vw!important
-    }
-}
-@media only screen and (max-width: 480px) {
-    .row {
-        padding-left: 15px!important;
-        padding-right: 15px!important;
-        text-align: left
-    }
-    div#links {
-        padding-left: 0!important;
-        padding-right: 0!important
-    }
-    ul#link {
-        -webkit-box-pack: justify!important;
-        -webkit-justify-content: space-between!important;
-        -ms-flex-pack: justify!important;
-        justify-content: space-between!important
-    }
-    #text {
-        font-size: 23vw;
-        line-height: 1
-    }
-    #text-sub {
-        font-size: 5vw;
-        line-height: 1
-    }
 }
