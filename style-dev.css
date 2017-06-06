@@ -1,9 +1,7 @@
 html {
 	 background: url(images/bg7o.jpg) no-repeat center center fixed; 
-	  -webkit-background-size: cover;
- 	 -moz-background-size: cover;
- 	 -o-background-size: cover;
- 	 background-size: cover;
+	 background-size: cover;
+	 overflow:hidden;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -11,13 +9,12 @@ body {
     color: #ffffff;
 }
 .header{
-	overflow: hidden;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	z-index:1;
 }
 .header a{
-	float: left;
- 	display: block;
+	float: right;
+ 	display: inline;
  	text-align: center;
  	padding: 14px 16px;
  	text-decoration: none;
@@ -64,23 +61,6 @@ body {
     user-select: none
 }
 
-#nav {
-	margin:0;
-	list-style: none;
-      	font-size: 2em;
-}
-#nav li{
-	
-    display:inline;
-
-}
-#nav li a{
-	color:#ffffff;		
-	text-decoration: none;
-}
-#nav li a:hover {
-    text-decoration:underline;
-}
 #links{
     padding: 20px 20vw;
 }
@@ -108,42 +88,6 @@ body {
     line-height: 1.10;
     margin-top:2em;
     margin-bottom:5px;    
-}
-#contact{
-	width: 100%;
-   	max-width: 700px;
-    	margin: 3em auto 3em;
-    	padding: 15px;
-    	font-size: 2em;
-}
-input{
-	width:100%;
-	padding: 10px 15px;
-	background-color:transparent;
-	margin: 8px 0;
-   	box-sizing: border-box;
-	border: 2px solid white;
-	resize: none;
-	color:white;
-}
-input[type=submit]{
-    background-color:transparent;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-size:20px;
-}
-input[type=submit]:hover{
-    background-color:black;
-}
-textarea {
-    width: 100%;
-    background-color:transparent;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid white;
-    color:white;
-    resize: none;
 }
 
 #link {
