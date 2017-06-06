@@ -1,19 +1,31 @@
----
-layout: blog
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} | {{ site.description }}</title>
 
-<div class="row">
-  <div id="blog-roll">
-    <h1 id="blog-title">{{ page.title }}</h1>
-  
-    <div>
-      {{ content }}
-    </div>
-  
-    <div>
-      <b>Posted on</b> {{ page.date | date: "%B %e, %Y" }}
-    </div>
-    <br><br>
-    {% include disqus.html %}
-  </div>
-</div>
+    {% include meta.html %}
+
+    <link rel="stylesheet" type="text/css" href="../style-dev.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:100">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon"/>
+  </head>
+
+  <body id="blog" style="background:url(../images/{{page.background}}) center no-repeat fixed;">
+    {% include header.html %}
+    <div class="row">
+      <div id="blog-roll">
+        <h1 id="blog-title">{{ page.title }}</h1>  
+        <div>
+         {{ content }}
+        </div>  
+        <div>
+         <b>Posted on</b> {{ page.date | date: "%B %e, %Y" }}
+        </div>
+        <br><br>
+        {% include disqus.html %}
+      </div>
+    </div>    
+  </body>
+</html>
+
+
