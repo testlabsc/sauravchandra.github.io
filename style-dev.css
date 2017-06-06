@@ -1,6 +1,14 @@
-html,body {
+body #home{
 	background: url(images/bg5o.jpg) center no-repeat fixed;
 	background-size:  cover;
+	height:100%;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+	margin:0;
+	padding:0;
+}
+body #blog{
+	background:none;
 	height:100%;
         font-family: 'Roboto', sans-serif;
         color: #ffffff;
@@ -11,7 +19,7 @@ html,body {
 	position:fixed;
 	width:100%;
 	top:0;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 	z-index:1;
 }
 .header a{
@@ -101,7 +109,7 @@ html,body {
     flex-flow: row wrap;
     flex-basis: auto;
     align-self: auto;
-    justify-content: space-around;
+    justify-content: center;
     margin: 0;
     padding: 0;
 }
