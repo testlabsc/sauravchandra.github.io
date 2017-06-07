@@ -16,13 +16,13 @@ html,body{
 	padding:0;
 	color:black;
 }
-.header{
+header{
 	position:fixed;
 	width:100%;
 	top:0;
 	z-index:1;
 }
-.header a{
+header a{
 	float: right;
  	display: inline;
  	text-align: center;
