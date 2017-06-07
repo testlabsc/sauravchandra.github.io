@@ -119,20 +119,16 @@ html,body{
    	line-height: 1.7;
 }
 .hamburger {
-  font-size: 60px;
-  float:right;
-  display: inline-block;
-
-  width: 1em;
-  height: 1em;
-  padding: 0;
-
-  cursor: pointer;
-  transition: transform .2s ease-in-out;
-  vertical-align: middle;
-
-  border: 0 none;
-  background: transparent;
+  	font-size: 40px;
+  	float: right;
+  	display: inline-block;
+  	width: 1.5em;
+  	height: 2em;
+  	cursor: pointer;
+  	transition: transform .2s ease-in-out;
+  	vertical-align: middle;
+  	border: 0 none;
+  	background: transparent;
 }
 
 .hamburger::-moz-focus-inner {
