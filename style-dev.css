@@ -118,17 +118,46 @@ html,body{
    	font-size: 16px;
    	line-height: 1.7;
 }
-#trigram {
-  	content: "";
-    	float: right;
-    	display: block;
-    	top: 15px; background-color:a9a9a9;
-	
-	
-   	position: absolute;
-    	right: 20px;
-    	width: 30px;
-    	box-shadow: 0 10px 0 2px #ffffff, 0 18px 0 2px #ffffff, 0 26px 0 2px #ffffff;
+#nav-icon {
+  margin: 1em;
+  width: 40px;
+}
+
+#nav-icon:after, 
+#nav-icon:before, 
+#nav-icon div {
+  background-color: #fff;
+  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  content: '';
+  display: block;
+  height: 5px;
+  margin: 7px 0;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#nav-icon:hover:before {
+  transform: translateY(12px) rotate(135deg);
+  -moz-transform: translateY(12px) rotate(135deg);
+  -webkit-transform: translateY(12px) rotate(135deg);
+}
+
+#nav-icon:hover:after {
+  transform: translateY(-12px) rotate(-135deg);
+  -moz-transform: translateY(-12px) rotate(-135deg);
+  -webkit-transform: translateY(-12px) rotate(-135deg);
+}
+
+
+#nav-icon:hover div {
+  -moz-transform: scale(0);
+  -webkit-transform: scale(0);
+  transform: scale(0);
 }
 
 #link {
