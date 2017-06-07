@@ -128,6 +128,9 @@ html,body{
     	vertical-align: middle;
     	border: 0 none;
     	background: #a9a9a9;
+	padding-top: 8px;
+    	margin-right: 6px;
+    	margin-top: 6px;
 }
 
 .hamburger::-moz-focus-inner {
