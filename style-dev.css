@@ -16,7 +16,7 @@ html,body{
 	padding:0;
 	color:black;
 }
-header{
+header#blog{
 	position: fixed;
     	width: 100%;
     	top: 0;
@@ -25,7 +25,7 @@ header{
     	box-shadow: 0px 4px 4px #888888;
 	background: #ffffff;
 }
-header a{
+header#blog a{
 	float: right;
  	display: inline;
  	text-align: center;
@@ -51,6 +51,21 @@ header a{
 	display: inline-block;
     	vertical-align: middle;
     	margin: 0;
+}
+header#post{
+	position: fixed;
+    	width: 100%;
+    	top: 0;
+    	padding: 10px 0px;
+    	z-index: 1;
+}
+header#post a{
+	float: left;
+ 	display: inline;
+ 	text-align: center;
+ 	padding: 14px 16px;
+ 	text-decoration: none;
+ 	font-size: 48px;
 }
 .content {
     position: absolute;
