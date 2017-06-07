@@ -1,0 +1,17 @@
+<header id="blog">
+ <div id="site-branding">
+ 		<div id="site-photo"><img src="../images/photo.jpg"/></div>
+ 		<div id="site-name">Saurav Chandra's Blog</div>
+ 	</div>
+ 	<button class="hamburger hamburger-cancel">
+   		<span class="icon"></span>		
+ </button> 
+ </header>
+ <script>
+ 	var el = document.querySelectorAll('.hamburger');
+ 		for(i=0; i<=el.length; i++) {
+ 		  el[i].addEventListener('click', function() {
+ 		    this.classList.toggle('active');
+ 		}, false);
+ 	}
+ </script>
