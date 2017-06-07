@@ -17,10 +17,12 @@ html,body{
 	color:black;
 }
 header{
-	position:fixed;
-	width:100%;
-	top:0;
-	z-index:1;
+	position: fixed;
+    	width: 100%;
+    	top: 0;
+    	padding: 10px 0px;
+    	z-index: 1;
+    	box-shadow: 0px 4px 4px #888888;
 }
 header a{
 	float: right;
@@ -30,7 +32,25 @@ header a{
  	text-decoration: none;
  	font-size: 48px;
 }
-
+#site-branding{
+	float: left;
+    	font-size: 40px;
+}
+#site-photo{
+	height: 60px;
+    	display: inline-block;
+    	width: 60px;
+    	vertical-align: middle;
+}
+#site-photo img{
+	width: 100%;
+    	border-radius: 50%;
+}
+#site-name{
+	display: inline-block;
+    	vertical-align: middle;
+    	margin: 0;
+}
 .content {
     position: absolute;
     top: 50%;
@@ -119,16 +139,17 @@ header a{
    	line-height: 1.7;
 }
 .hamburger {
-  	font-size: 40px;
+	display: inline-block;
+    	padding-bottom: 0px;
+  	font-size: 30px;
     	float: right;
-   	display: inline-block;
     	width: 1.5em;
     	cursor: pointer;
     	transition: transform .2s ease-in-out;
     	vertical-align: middle;
     	border: 0 none;
     	background: #a9a9a9;
-	padding-top: 8px;
+	padding-top: 6px;
     	margin-right: 6px;
     	margin-top: 6px;
 }
