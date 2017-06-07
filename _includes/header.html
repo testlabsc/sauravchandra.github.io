@@ -1,5 +1,13 @@
 <div class="header">
-	<div id="nav-icon">
-  		<div></div>
-	</div> 
+	<button class="hamburger hamburger-cancel">
+  		<span class="icon"></span>
+	</button> 
 </div>
+<script>
+	var el = document.querySelectorAll('.hamburger');
+		for(i=0; i<=el.length; i++) {
+		  el[i].addEventListener('click', function() {
+		    this.classList.toggle('active');
+	  }, false);
+	}
+</script>
