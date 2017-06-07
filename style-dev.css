@@ -121,6 +121,7 @@ html,body{
 #nav-icon {
   margin: 1em;
   width: 40px;
+  float:right;
 }
 
 #nav-icon:after, 
@@ -141,20 +142,20 @@ html,body{
   transition: all .2s ease-in-out;
 }
 
-#nav-icon:hover:before {
+#nav-icon:active:before {
   transform: translateY(12px) rotate(135deg);
   -moz-transform: translateY(12px) rotate(135deg);
   -webkit-transform: translateY(12px) rotate(135deg);
 }
 
-#nav-icon:hover:after {
+#nav-icon:active:after {
   transform: translateY(-12px) rotate(-135deg);
   -moz-transform: translateY(-12px) rotate(-135deg);
   -webkit-transform: translateY(-12px) rotate(-135deg);
 }
 
 
-#nav-icon:hover div {
+#nav-icon:active div {
   -moz-transform: scale(0);
   -webkit-transform: scale(0);
   transform: scale(0);
