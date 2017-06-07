@@ -1,9 +1,22 @@
 <div class="header">
-	<button class="hamburger hamburger-cancel">
+	<button class="hamburger hamburger-cancel" onclick="openNav()">
   		<span class="icon"></span>
+		
+		<div id="myNav" class="overlay">
+  			<div class="overlay-content">
+    				<a href="#">Home</a>
+    				<a href="#">Blog</a>
+    			</div>
+		</div>
 	</button> 
 </div>
 <script>
+	function openNav() {
+    		document.getElementById("myNav").style.width = "100%";
+	}
+	function closeNav() {
+    		document.getElementById("myNav").style.width = "0%";
+	}
 	var el = document.querySelectorAll('.hamburger');
 		for(i=0; i<=el.length; i++) {
 		  el[i].addEventListener('click', function() {
