@@ -120,15 +120,14 @@ html,body{
 }
 .hamburger {
   	font-size: 40px;
-  	float: right;
-  	display: inline-block;
-  	width: 1.5em;
-  	height: 2em;
-  	cursor: pointer;
-  	transition: transform .2s ease-in-out;
-  	vertical-align: middle;
-  	border: 0 none;
-  	background: transparent;
+    	float: right;
+   	display: inline-block;
+    	width: 1.5em;
+    	cursor: pointer;
+    	transition: transform .2s ease-in-out;
+    	vertical-align: middle;
+    	border: 0 none;
+    	background: #a9a9a9;
 }
 
 .hamburger::-moz-focus-inner {
