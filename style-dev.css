@@ -152,13 +152,10 @@ html,body{
 .hamburger .icon,
 .hamburger:after {
   display: block;
-
   width: 100%;
   height: .2em;
   margin: 0 0 .2em;
-
   transition: transform .2s ease-in-out;
-
   border-radius: .05em;
   background: #ffffff;
 }
@@ -185,7 +182,6 @@ html,body{
     height: 100%;
     width: 0;
     position: fixed;
-    float:right;
     z-index: 1;
     top: 0;
     left: 0;
@@ -223,6 +219,10 @@ html,body{
     font-size: 60px;
 }
 
+footer{
+	text-align:center;
+	padding:20px;
+}
 #link {
     display: flex;
     flex-flow: row wrap;
