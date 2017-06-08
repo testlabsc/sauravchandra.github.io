@@ -1,17 +1,22 @@
 <header id="blog">
- <div id="site-branding">
+	<div id="site-branding">
  		<div id="site-photo"><img src="../images/photo.jpg"/></div>
  		<div id="site-name">Saurav Chandra</div>
  	</div>
  	<button class="hamburger hamburger-cancel">
    		<span class="icon"></span>		
- </button> 
- </header>
- <script>
- 	var el = document.querySelectorAll('.hamburger');
+  	</button> 
+</header>
+<div id="overlay">
+	<a href="../">Home</a>
+	<a href="../blog">Blog</a>
+	<a href="">Live</a>
+</div>
+<script>
+	var el = document.querySelectorAll('.hamburger');
  		for(i=0; i<=el.length; i++) {
  		  el[i].addEventListener('click', function() {
  		    this.classList.toggle('active');
  		}, false);
  	}
- </script>
+</script>
