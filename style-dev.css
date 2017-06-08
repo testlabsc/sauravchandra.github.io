@@ -175,9 +175,9 @@ header#home a{
 	display: inline-block;
     	padding-bottom: 0px;
   	font-size: 30px;
-    	float: right;
     	width: 1.5em;
     	cursor: pointer;
+	float:right;
     	transition: transform .2s ease-in-out;
     	vertical-align: middle;
     	border: 0 none;
@@ -185,16 +185,6 @@ header#home a{
 	padding-top: 6px;
     	margin-right: 6px;
     	margin-top: 6px;
-}
-
-.hamburger::-moz-focus-inner {
-  padding: 0;
-  border: 0 none;
-}
-
-
-.hamburger:focus {
-  outline: 0;
 }
 
 .hamburger:before,
@@ -230,6 +220,13 @@ header#home a{
 
 .hamburger.hamburger-cancel.active:after {
   transform: translateY(-.4em) rotate(-135deg);
+}
+
+.hamburger.hamburger-arrow-left{
+    float:left;		
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
 }
 
 .overlay {
