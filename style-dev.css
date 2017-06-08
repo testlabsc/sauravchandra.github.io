@@ -69,6 +69,21 @@ header#post a{
  	font-size: 48px;
 	color:black;
 }
+header#home{
+	position: fixed;
+    	width: 100%;
+    	top: 0;
+    	padding: 10px 0px;
+    	z-index: 1;
+}
+header#home a{
+	float: right;
+ 	display: inline;
+ 	text-align: center;
+ 	padding: 14px 16px;
+ 	text-decoration: none;
+ 	font-size: 48px;
+}
 .content {
     position: absolute;
     top: 50%;
