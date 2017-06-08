@@ -3,6 +3,7 @@ layout: post
 title: So I was away
 banner: life-alone.jpg
 tags: life
+author: Saurav Chandra
 ---
 *Summary: Prologue*
 
