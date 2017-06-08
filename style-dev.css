@@ -255,7 +255,7 @@ button.hamburger{
   -webkit-transform: translateX(.4em) translateY(-.2em) rotate(-45deg);
 }
 
-.overlay {
+#overlay {
     height: 0;
     width: 100%;
     display: flex;
@@ -272,7 +272,7 @@ button.hamburger{
     transition: 0.5s;
 }
 
-.overlay a {
+#overlay a {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
@@ -281,7 +281,7 @@ button.hamburger{
     transition: 0.3s;
 }
 
-.overlay a:hover, .overlay a:focus {
+#overlay a:hover, #overlay a:focus {
     color: #f1f1f1;
 }
 
