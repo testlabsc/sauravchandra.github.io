@@ -183,8 +183,8 @@ button.hamburger{
 .hamburger {
 	display: inline-block;
     	padding-bottom: 0px;
-  	font-size: 30px;
-    	width: 1.5em;
+  	font-size: 25px;
+    	width: 1em;
     	cursor: pointer;
 	float:right;
     	transition: transform .2s ease-in-out;
