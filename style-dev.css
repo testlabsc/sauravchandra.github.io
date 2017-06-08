@@ -256,7 +256,7 @@ button.hamburger{
 }
 
 #overlay {
-    height: 0;
+    height: 0%;
     width: 100%;
     display: flex;
     position: fixed;
