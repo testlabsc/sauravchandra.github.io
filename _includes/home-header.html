@@ -10,9 +10,9 @@
 </div>
 <script>
 	function toogle(){
-		var toogle=document.getElementById('overlay');
-		if(window.getComputedStyle(toogle).style.getPropertyValue('width')=='100%'){toogle.style.width='0';}
-			else{toogle.style.width='100%'}
+		var element=document.getElementById('overlay'),style = window.getComputedStyle(element),width = style.getPropertyValue('width');
+		if(width=='100%'){element.style.width='0';}
+			else{element.style.width='100%'}
 	}
 	var el = document.querySelectorAll('.hamburger');	
  		for(i=0; i<=el.length; i++) {
