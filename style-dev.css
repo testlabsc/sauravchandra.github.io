@@ -139,14 +139,15 @@ header#home{
 }
 #blog-post-title {
     line-height: 1.10;
-    margin-top:2em;
     margin-bottom:5px; 
     font-size:2rem;
 }
 #blog-post-main-image {
     width:100%;
 }
-
+#blog-post-main-image img{
+	width:100%;
+}
 #post-banner{
 	height: 100%;
   	background-position: center;
