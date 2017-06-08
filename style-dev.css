@@ -224,27 +224,64 @@ button.hamburger{
   transform: translateY(-.4em) rotate(-135deg);
 }
 
-.hamburger.hamburger-arrow-left{
+button.menu-arrow{
+	padding-top: 6px;
+    	border-radius: 5px;
+	margin-right:10px;
+}
+.menu-arrow {
+	font-size: 25px;
+    	width: 1.5em;
+    	cursor: pointer;
+    	transition: transform .2s ease-in-out;
+    	border: 0 none;
+    	background: #a9a9a9;
+}
+
+.menu-arrow:before,
+.menu-arrow:after {
+  content: "";
+}
+
+.menu-arrow:before,
+.menu-arrow .icon,
+.menu-arrow:after {
+  display: block;
+  height: .2em;
+  width: 100%;
+  margin: 0 0 .2em;
+  transition: transform .2s ease-in-out;
+  border-radius: .1em;
+  background: #ffffff;
+}
+
+.menu-arrow.active:before,
+.menu-arrow.active .icon,
+.menu-arrow.active:after {
+  background: #ffffff;
+}
+
+.menu-arrow.menu-arrow-left{
   float:left;
   transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
 }
 
-.hamburger.hamburger-arrow-left:before {
+.menu-arrow.menu-arrow-left:before {
   width: .8em;
   transform: translateX(.4em) translateY(.2em) rotate(45deg);
   -moz-transform: translateX(.4em) translateY(.2em) rotate(45deg);
   -webkit-transform: translateX(.4em) translateY(.2em) rotate(45deg);
 }
 
-.hamburger.hamburger-arrow-left.icon {
+.menu-arrow.menu-arrow-left.icon {
   border-radius: .1em .25em .25em .1em;
   -moz-border-radius: .1em .25em .25em .1em;
   -webkit-border-radius: .1em .25em .25em .1em;
 }
 
-.hamburger.hamburger-arrow-left:after {
+.menu-arrow.menu-arrow-left:after {
   width: .8em;
   transform: translateX(.4em) translateY(-.2em) rotate(-45deg);
   -moz-transform: translateX(.4em) translateY(-.2em) rotate(-45deg);
