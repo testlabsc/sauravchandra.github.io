@@ -112,7 +112,10 @@ header#home{
   	-ms-user-select: none;
   	user-select: none
 }
-
+#description{
+		font-size: 30px;
+    		text-align: center;
+}
 #links{
     padding: 20px;
 }
