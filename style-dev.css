@@ -120,20 +120,33 @@ header#home{
     padding: 20px;
 }
 
-#post-display{
+#blog-post-display-container{
 	text-align: left;
+	width:100%;
 	max-width: 700px;
 	margin:0 auto;
-    	line-height: 1.7;
+    	line-height: 25px;
     	font-size: 16px;
-    	padding-left: 10px;
-    	padding-right: 10px;
+	padding-top:80px;    	
+	padding-left:10px;
+	padding-right:10px;   	
+
 }
 
-#post-display a{
+#blog-post-display-container a{
     	color:black;
 	text-decoration:none;
 }
+#blog-post-title {
+    line-height: 1.10;
+    margin-top:2em;
+    margin-bottom:5px; 
+    font-size:2rem;
+}
+#blog-post-main-image {
+    width:100%;
+}
+
 #post-banner{
 	height: 100%;
   	background-position: center;
@@ -160,12 +173,7 @@ header#home{
  	transform: translate(-50%, -50%);
 	color: white;   
 }
-#post-title-bp {
-    line-height: 1.10;
-    margin-top:2em;
-    margin-bottom:5px; 
-    font-size:2rem;
-}
+
 #post-content{
 	margin: 1.5em auto 0;
    	padding: 0 1.5em;
