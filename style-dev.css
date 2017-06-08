@@ -17,8 +17,11 @@ html,body{
 	color:black;
 }
 header#blog{
-	position: fixed;display:flex;flex-direction:row;align-items:center;
-	
+	position: fixed;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-between;	
     	width: 100%;
     	top: 0;
     	padding: 10px 0px;
@@ -174,22 +177,14 @@ header#home a{
    	line-height: 1.7;
 }
 button.hamburger{
-	padding-left: 6px;
-    	padding-right: 6px;
 	padding-top: 6px;
-    	margin-left: 6px;
-	margin-right: 6px;
-	border-radius:5px;float:right;
+    	border-radius: 5px;
 }
 .hamburger {
-	display: inline-block;
-    	padding-bottom: 0px;
-  	font-size: 25px;
+	font-size: 25px;
     	width: 1.5em;
     	cursor: pointer;
-	
     	transition: transform .2s ease-in-out;
-    	vertical-align: middle;
     	border: 0 none;
     	background: #a9a9a9;
 }
