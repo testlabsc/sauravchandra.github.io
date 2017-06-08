@@ -29,14 +29,7 @@ header#blog{
     	box-shadow: 0px 4px 4px #888888;
 	background: #ffffff;
 }
-header#blog a{
-	float: right;
- 	display: inline;
- 	text-align: center;
- 	padding: 14px 16px;
- 	text-decoration: none;
- 	font-size: 48px;
-}
+
 #site-branding{
 	float: left;
     	font-size: 2rem;
@@ -57,38 +50,32 @@ header#blog a{
     	vertical-align: middle;
     	margin: 0;
 }
+
 header#post{
+	display:flex;
 	position: fixed;
+	flex-direction:row;
+	align-content:center;
+	justify-content:space-between;
     	width: 100%;
     	top: 0;
     	padding: 10px 0px;
     	z-index: 2;
 }
-header#post a{
-	float: left;
- 	display: inline;
- 	text-align: center;
- 	padding: 14px 16px;
- 	text-decoration: none;
- 	font-size: 48px;
-	color:black;
-}
+
 header#home{
+	display:flex;
 	position: fixed;
+	flex-direction:row;
+	align-content:center;
+	justify-content:space-between;
     	width: 100%;
     	top: 0;
     	padding: 10px 0px;
 	background:none;
     	z-index: 2;
 }
-header#home a{
-	float: right;
- 	display: inline;
- 	text-align: center;
- 	padding: 14px 16px;
- 	text-decoration: none;
- 	font-size: 48px;
-}
+
 .content {
     position: absolute;
     top: 50%;
