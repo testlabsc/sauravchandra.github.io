@@ -184,7 +184,7 @@ button.hamburger{
 	display: inline-block;
     	padding-bottom: 0px;
   	font-size: 25px;
-    	width: 1em;
+    	width: 1.5em;
     	cursor: pointer;
 	float:right;
     	transition: transform .2s ease-in-out;
