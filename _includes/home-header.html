@@ -12,7 +12,7 @@
 	function toogle(){
 		var element=document.getElementById('overlay'),style = window.getComputedStyle(element),height = style.getPropertyValue('height');
 		if(height=='100%'){element.style.height='0';}
-			else{element.style.width='100%'}
+			else{element.style.height='100%'}
 	}
 	var el = document.querySelectorAll('.hamburger');	
  		for(i=0; i<=el.length; i++) {
