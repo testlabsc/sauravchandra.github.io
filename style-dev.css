@@ -229,6 +229,19 @@ header#home a{
     -webkit-transform: rotate(180deg);
 }
 
+.hamburger.hamburger-arrow-left:before {
+    width: .6em;
+    transform: translateX(.4em) translateY(.2em) rotate(45deg);
+    -moz-transform: translateX(.4em) translateY(.2em) rotate(45deg);
+    -webkit-transform: translateX(.4em) translateY(.2em) rotate(45deg);
+}
+.hamburger.hamburger-arrow-left:after {
+    width: .6em;
+    transform: translateX(.4em) translateY(-.2em) rotate(-45deg);
+    -moz-transform: translateX(.4em) translateY(-.2em) rotate(-45deg);
+    -webkit-transform: translateX(.4em) translateY(-.2em) rotate(-45deg);
+}
+
 .overlay {
     height: 100%;
     width: 0;
