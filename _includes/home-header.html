@@ -1,5 +1,5 @@
 <header id="home">
-	<button class="hamburger hamburger-cancel">
+	<button class="hamburger hamburger-cancel" onClick="toogle()">
    		<span class="icon"></span>		
 	</button> 
 </header>
@@ -9,13 +9,15 @@
 	<a href="">Live</a>
 </div>
 <script>
-	var el = document.querySelectorAll('.hamburger');
-	var toogle=document.getElementById('overlay');
+	function toogle(){
+		var toogle=document.getElementById('overlay');
+		if(document.getComputedStyle(toogle).style.getPropertyValue('width')=='100%'){toogle.style.width='0';}
+			else{toogle.style.width='100%'}
+	}
+	var el = document.querySelectorAll('.hamburger');	
  		for(i=0; i<=el.length; i++) {
  			el[i].addEventListener('click', function() {
  		    	this.classList.toggle('active');
-			if(document.getComputedStyle(toogle).style.getPropertyValue('width')=='100%'){toogle.style.width='0';}
-			else{toogle.style.width='100%'}
- 			}, false);
+			}, false);
  		}
 </script>
