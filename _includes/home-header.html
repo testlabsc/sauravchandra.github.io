@@ -9,11 +9,12 @@
 	<a href="">Live</a>
 </div>
 <script>
-	var element=document.getElementById('overlay'),style = window.getComputedStyle(element),height = style.getPropertyValue('height');
+	var element=document.getElementById('overlay'),style = window.getComputedStyle(element);
 	var el = document.querySelectorAll('.hamburger');	
  		for(i=0; i<=el.length; i++) {
  			el[i].addEventListener('click', function() {
  		    	this.classList.toggle('active');
+			var height = style.getPropertyValue('height');
 			if(height=='0px'){element.style.height='100%';}
 			else{element.style.height='0px';}
 			}, false);
