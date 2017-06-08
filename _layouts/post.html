@@ -13,11 +13,10 @@
     <div id="post-banner" style="background-image:url(../images/{{page.banner}});">
          {% include post-header.html %}
       <div id="post-title">{{ page.title }}</div>
-      <div id="post-meta">Posted on {{ page.date }} by {{ page.author }}</div>
+      <div id="post-meta">Posted on {{ page.date | date: "%B %e, %Y" }} by {{ page.author }}</div>
     </div>
     <div id="post-content">
       {{ content }}
-      <b>Posted on</b> {{ page.date | date: "%B %e, %Y" }}
       {% include footer.html%}
     </div>     
   </body>
