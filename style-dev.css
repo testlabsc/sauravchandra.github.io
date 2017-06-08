@@ -267,14 +267,6 @@ button.hamburger{
     transition: 0.5s;
 }
 
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-
 .overlay a {
     padding: 8px;
     text-decoration: none;
@@ -286,13 +278,6 @@ button.hamburger{
 
 .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
-}
-
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
 }
 
 footer{
