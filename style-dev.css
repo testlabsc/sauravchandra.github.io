@@ -196,11 +196,10 @@ header#home a{
 .hamburger .icon,
 .hamburger:after {
   display: block;
-  width: 100%;
   height: .2em;
   margin: 0 0 .2em;
   transition: transform .2s ease-in-out;
-  border-radius: .05em;
+  border-radius: .06em;
   background: #ffffff;
 }
 
