@@ -201,7 +201,7 @@ button.hamburger{
 .hamburger:after {
   display: block;
   height: .2em;
-  width: 1em;
+  width: 100%;
   margin: 0 0 .2em;
   transition: transform .2s ease-in-out;
   border-radius: .1em;
@@ -234,7 +234,7 @@ button.hamburger{
 }
 
 .hamburger.hamburger-arrow-left:before {
-  width: .6em;
+  width: .8em;
   transform: translateX(.4em) translateY(.2em) rotate(45deg);
   -moz-transform: translateX(.4em) translateY(.2em) rotate(45deg);
   -webkit-transform: translateX(.4em) translateY(.2em) rotate(45deg);
@@ -247,7 +247,7 @@ button.hamburger{
 }
 
 .hamburger.hamburger-arrow-left:after {
-  width: .6em;
+  width: .8em;
   transform: translateX(.4em) translateY(-.2em) rotate(-45deg);
   -moz-transform: translateX(.4em) translateY(-.2em) rotate(-45deg);
   -webkit-transform: translateX(.4em) translateY(-.2em) rotate(-45deg);
