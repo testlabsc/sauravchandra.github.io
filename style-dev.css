@@ -177,6 +177,7 @@ button.hamburger{
     	margin-left: 6px;
 	margin-right: 6px;
     	margin-top: 0px;
+	border-radius:5px;
 }
 .hamburger {
 	display: inline-block;
