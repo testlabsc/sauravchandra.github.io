@@ -171,6 +171,13 @@ header#home a{
    	font-size: 16px;
    	line-height: 1.7;
 }
+button.hamburger{
+	padding-left: 6px;
+    	padding-right: 6px;
+    	margin-left: 6px;
+	margin-right: 6px;
+    	margin-top: 0px;
+}
 .hamburger {
 	display: inline-block;
     	padding-bottom: 0px;
