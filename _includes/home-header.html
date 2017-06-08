@@ -15,7 +15,7 @@
  			el[i].addEventListener('click', function() {
  		    	this.classList.toggle('active');
 			if(height=='100%'){element.style.height='0';}
-			else{element.style.height='100%'}
+			if(height=='0'){element.style.height='100%';}
 			}, false);
  		}
 </script>
