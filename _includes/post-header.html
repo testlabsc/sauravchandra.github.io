@@ -1,4 +1,15 @@
 <header id="post">
 	<a href="../blog/" >&#60;-
-	</a> 
+	</a>
+	<button class="hamburger hamburger-cancel">
+   		<span class="icon"></span>		
+	</button> 
+ 	<script>
+ 	var el = document.querySelectorAll('.hamburger');
+ 		for(i=0; i<=el.length; i++) {
+ 		  el[i].addEventListener('click', function() {
+ 		    this.classList.toggle('active');
+ 		}, false);
+ 	}
+ 	</script>
 </header>
