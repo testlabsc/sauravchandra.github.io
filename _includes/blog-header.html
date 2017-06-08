@@ -14,8 +14,8 @@
 </div>
 <script>
 	function toogle(){
-		var element=document.getElementById('overlay'),style = window.getComputedStyle(element),width = style.getPropertyValue('width');
-		if(width=='100%'){element.style.width='0';}
+		var element=document.getElementById('overlay'),style = window.getComputedStyle(element),height = style.getPropertyValue('height');
+		if(height=='100%'){element.style.height='0';}
 			else{element.style.width='100%'}
 	}
 	var el = document.querySelectorAll('.hamburger');	
