@@ -176,7 +176,6 @@ button.hamburger{
     	padding-right: 6px;
     	margin-left: 6px;
 	margin-right: 6px;
-    	margin-top: 0px;
 	border-radius:5px;
 }
 .hamburger {
@@ -190,9 +189,6 @@ button.hamburger{
     	vertical-align: middle;
     	border: 0 none;
     	background: #a9a9a9;
-	padding-top: 6px;
-    	margin-right: 6px;
-    	margin-top: 6px;
 }
 
 .hamburger:before,
