@@ -17,7 +17,7 @@ html,body{
 	color:black;
 }
 header#blog{
-	position: fixed;display:flex;flex-direction:row;align-items:center;justify-content:center;
+	position: fixed;display:flex;flex-direction:row;align-items:center;
 	
     	width: 100%;
     	top: 0;
@@ -179,7 +179,7 @@ button.hamburger{
 	padding-top: 6px;
     	margin-left: 6px;
 	margin-right: 6px;
-	border-radius:5px;
+	border-radius:5px;float:right;
 }
 .hamburger {
 	display: inline-block;
