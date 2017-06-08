@@ -4,6 +4,11 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
 
     {% include meta.html %}
+    {% include analytics.html %}
+    <meta property="og:image" content="../images/{{ page.banner }}"/>
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:url" content="{{ site.baseurl }}{{ post.url }}"/>
+    <meta property="og:site_name" content="{{ site.name }}"/>
 
     <link rel="stylesheet" type="text/css" href="../style-dev.css" />
     <link href="https://fonts.googleapis.com/css?family=Quicksand|Ultra" rel="stylesheet">    <link rel="icon" href="../favicon.ico" type="image/x-icon"/>
