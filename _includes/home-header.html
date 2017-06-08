@@ -11,7 +11,7 @@
 <script>
 	function toogle(){
 		var toogle=document.getElementById('overlay');
-		if(document.getComputedStyle(toogle).style.getPropertyValue('width')=='100%'){toogle.style.width='0';}
+		if(window.getComputedStyle(toogle).style.getPropertyValue('width')=='100%'){toogle.style.width='0';}
 			else{toogle.style.width='100%'}
 	}
 	var el = document.querySelectorAll('.hamburger');	
