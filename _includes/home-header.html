@@ -10,10 +10,12 @@
 </div>
 <script>
 	var el = document.querySelectorAll('.hamburger');
+	var toogle=document.getElementById('overlay');
  		for(i=0; i<=el.length; i++) {
  			el[i].addEventListener('click', function() {
  		    	this.classList.toggle('active');
-			
+			if(document.getComputedStyle(toogle).style.getPropertyValue('width')=='100%'){toogle.style.width='0';}
+			else{toogle.style.width='100%'}
  			}, false);
  		}
 </script>
