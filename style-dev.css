@@ -344,6 +344,7 @@ button.menu-arrow{
     	margin: 20px;
     	border-radius: 5px;
 }
+.cookiePolicy{ display:none;}
 footer{
 	text-align:center;
 	padding:20px;
