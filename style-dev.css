@@ -340,11 +340,12 @@ button.menu-arrow{
 	border: black 1px solid;
     	width: 300px;
    	height: 300px;
-    	padding: 20px;
     	margin: 20px;
     	border-radius: 5px;
 }
-.cookiePolicy{ display:none;}
+.cookiePolicy{ 
+	display:none !important;
+}
 footer{
 	text-align:center;
 	padding:20px;
