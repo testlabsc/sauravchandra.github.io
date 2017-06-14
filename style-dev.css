@@ -327,8 +327,8 @@ button.menu-arrow{
     color: #f1f1f1;
 }
 
-.live-container{
-	width: 100%;
+.live-container{width:100%;
+	
     	height: 100%;
     	align-items: stretch;
     	display: flex;
@@ -337,8 +337,8 @@ button.menu-arrow{
     	flex-wrap: wrap;
 }
 .live-items{
-	border: black 1px solid;
-    	width: 300px;
+	
+    	
    	height: 300px;
     	margin: 20px;
     	
