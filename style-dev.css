@@ -353,7 +353,7 @@ button.menu-arrow{
 }
 #music{width:50%;}
 #book{width:50%;}
-#work{width:100%; background-image:url('../images/work-bg.jpg';}
+#work{width:100%; background-image:url(images/work-bg.jpg);}
 	
 	
 .cookiePolicy{ 
