@@ -16,6 +16,13 @@ html,body{
 	padding:0;
 	color:black;
 }
+#live{
+	background: url(images/bg-live.jpg) center no-repeat fixed;
+	background-size:  cover;
+	font-family: 'Quicksand', sans-serif;
+        color: #ffffff;	
+}
+
 header#blog{
 	position: fixed;
 	display:flex;
