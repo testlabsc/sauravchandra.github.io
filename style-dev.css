@@ -341,8 +341,13 @@ button.menu-arrow{
     	width: 300px;
    	height: 300px;
     	margin: 20px;
-    	border-radius: 5px;
+    	
 }
+#music{width:50%;}
+#book{width:50%;}
+#work{width:100%;}
+	
+	
 .cookiePolicy{ 
 	display:none !important;
 }
