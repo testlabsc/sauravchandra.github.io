@@ -341,12 +341,10 @@ button.menu-arrow{
     	display: flex;
     	flex-direction: column;
     	justify-content: center;
-    	flex-wrap: wrap;
 }
 .live-items{
-	
-    height: 500px;
-    	
+	display:flex;
+   	height: 500px;    	
 }
 #music{
 	background-image:url(images/music-bg.jpg);
