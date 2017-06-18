@@ -346,7 +346,7 @@ button.menu-arrow{
 .live-label{
 	display: table;
     	margin: auto;
-    	font-size: 45px;
+    	font-size: 2rem;
 	text-align: center;
 }
 #music{
@@ -360,7 +360,7 @@ button.menu-arrow{
 }
 
  #book-container {
-         height:80%;
+         height:75%;
 }
 #book-container img{
 	height: 100%;
