@@ -346,7 +346,8 @@ button.menu-arrow{
 .live-label{
 	display: table;
     	margin: auto;
-    	font-size: 50px;
+    	font-size: 45px;
+	text-align: center;
 }
 #music{
 	background-image:url(images/music-bg.jpg);
@@ -356,11 +357,6 @@ button.menu-arrow{
 }
 #work{
 	background-image:url(images/work-bg.jpg);
-}
-	
-	
-.cookiePolicy{ 
-	display:none !important;
 }
 
  #book-container {
