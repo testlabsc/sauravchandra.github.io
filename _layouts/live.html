@@ -9,6 +9,8 @@
     <meta property="og:url" content="http://sauravchandra.com"/>
     {% include analytics.html %}
     
+    <link rel="stylesheet" href="../sc-player-standard.css" type="text/css">
+    <link rel="stylesheet" href="../sc-player.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="../style-dev.css" />
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"/>
     <link rel="icon" href="../favicon.ico" type="image/x-icon"/>
@@ -17,5 +19,8 @@
   <body id="live">
     {% include home-header.html%}
     	{{ content }}
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script type="text/javascript" src="../soundcloud.player.api.js"></script>
+  <script type="text/javascript" src="../sc-player.js"></script>
   </body>
 </html>
