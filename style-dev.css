@@ -334,26 +334,31 @@ button.menu-arrow{
     color: #f1f1f1;
 }
 
-.live-container{width:100%;
-	
+.live-container{
+	width: 100%;
     	height: 100%;
     	align-items: stretch;
     	display: flex;
-    	flex-direction: row;
-    	justify-content: space-around;
+    	flex-direction: column;
+    	justify-content: center;
     	flex-wrap: wrap;
 }
 .live-items{
 	
-    	
-   	height: 300px;
-    	margin: 20px;
-	box-shadow: 10px 10px 5px #888888;
+    height: 500px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px #888888;
     	
 }
-#music{width:50%;}
-#book{width:50%;}
-#work{width:100%; background-image:url(images/work-bg.jpg) center no-repeat fixed;}
+#music{
+	background-image:url(images/music-bg.jpg);
+}
+#book{
+	background-image:url(images/book-bg.jpg);
+}
+#work{
+	background-image:url(images/work-bg.jpg);
+}
 	
 	
 .cookiePolicy{ 
