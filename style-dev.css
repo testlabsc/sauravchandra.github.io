@@ -340,7 +340,13 @@ button.menu-arrow{
 }
 .live-items{
 	display:flex;
-   	height: 500px;    	
+   	height: 500px;
+	flex-direction:column;
+}
+.live-label{
+	display: table;
+    	margin: auto;
+    	font-size: 50px;
 }
 #music{
 	background-image:url(images/music-bg.jpg);
